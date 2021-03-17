@@ -1,0 +1,562 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    /* main header style */
+    .headerMain-section::before {
+        width: calc(33% + 10px);
+    }
+
+    /* about sec style */
+    .about-align-content::after {
+        height: calc(98% + 2px);
+    }
+
+    /* title style */
+    h2.title {
+        font-size: 38px;
+    }
+
+    /* contact sec style */
+    .contact-align-leftbox::after {
+        height: calc(98% + 1px);
+    }
+
+    .contact-align-righttbox::before {
+        height: calc(99% + 7px);
+    }
+
+    .contact-infobox h2 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .contact-infobox p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .contact-infobox a {
+        font-size: 32px;
+        line-height: 42px;
+    }
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    /* header top style */
+    .headertop-btn {
+        font-size: 12px;
+        line-height: 28px;
+        padding: 22px 24px 23px 24px;
+    }
+
+    .topheader-widget li a {
+        font-size: 11px;
+    }
+
+    .topheader-widget li a span svg {
+        width: 30px;
+        height: 23px;
+    }
+
+    .headerMain-section::before {
+        width: calc(34% + 17px);
+    }
+
+    /* header menu style */
+    .Navmenu ul li a {
+        font-size: 12px;
+    }
+
+    .Navmenu ul li {
+        margin-left: 28px;
+    }
+
+    /* title style */
+    h2.title {
+        font-size: 38px;
+    }
+
+    /* about sec style */
+    .about-contentDec p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    /* project sec style */
+    .project-conttext h4 {
+        font-size: 14px;
+    }
+
+    .project-conttext p {
+        font-size: 12px;
+    }
+
+    /* faq sec style */
+    .our-faq-sec .btn-link span svg {
+        width: 35px;
+        height: 35px;
+        display: inline-block;
+    }
+
+    .card-body p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    /* contact sec style */
+    .contact-align-leftbox::after {
+        height: calc(98% + 0px);
+    }
+
+    .contact-align-righttbox::after {
+        left: -67px;
+    }
+
+    .contact-infobox h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .contact-infobox a {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .contact-infobox p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .contact-infobox a {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .contact-rightbox {
+        padding: 94px 0px 96px 90px;
+    }
+
+    .contact-infobox {
+        width: 100%;
+        padding: 80px 0 95px 0px;
+        left: -14px;
+    }
+
+    .footer-widgetbox h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .footer-widgetbox ul li a {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* header sec style */
+
+    .headerMain-section::before {
+        width: 100%;
+        background: #67686A;
+        clip-path: none;
+    }
+
+    /* mobile menu style */
+    .mean-container a.meanmenu-reveal {
+        border: 1px solid #fff;
+        color: #fff;
+        margin-top: -46px;
+        right: 35px !important;
+    }
+
+    .mean-container a.meanmenu-reveal span::before {
+        content: "";
+        position: absolute;
+        width: 55%;
+        height: calc(10% - 1px);
+        left: 0;
+        top: 18px;
+        background: #fff;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .mean-container a.meanmenu-reveal span::after {
+        content: "";
+        position: absolute;
+        width: 55%;
+        height: calc(10% - 1px);
+        left: 0;
+        top: 24px;
+        background: #fff;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .mean-container a.meanmenu-reveal span {
+        background: #fff none repeat scroll 0 0;
+        margin-top: 5px;
+    }
+
+    /* headrtop style */
+    .topheader-widget li {
+        margin-right: 63px;
+        margin-left: 25px;
+    }
+
+    .topheader-widget li a {
+        font-size: 9px;
+        text-align: center;
+    }
+
+    .topheader-widget li a span svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    /* header menu */
+    .headerMain-section {
+        padding-bottom: 18px;
+    }
+
+    /* title style */
+    h2.title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    h2.title::before {
+        border: 1px solid #F68C02;
+    }
+
+    /* about style */
+    .about-align-content::after {
+        height: calc(98% + 2px);
+    }
+
+    .about-contentDec p {
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    .project-conttext h4 {
+        font-size: 15px;
+    }
+
+    /* project sec style */
+    .project-conttext p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    /* faq sec style */
+    .our-faq-sec .btn-link {
+        font-size: 18px;
+    }
+
+    .our-faq-sec .btn-link span svg {
+        width: 28px;
+        height: 28px;
+        display: inline-block;
+    }
+
+    /* card body style */
+    .card-body p {
+        font-size: 11px;
+        line-height: 21px;
+    }
+
+    /* contact sec style */
+    .contact-align-leftbox::after {
+        height: calc(98% + 3px);
+    }
+
+    .contact-align-righttbox::before {
+        left: -115px;
+    }
+
+    .contact-rightbox {
+        padding: 94px 0px 96px 110px;
+    }
+
+    .footer-copyrightleft {
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    .footer-copyrightlink li a svg {
+        width: 17.76px;
+        height: 25.76px;
+    }
+}
+
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+    header.header-section.header-sticky {
+        overflow: hidden;
+    }
+
+    /* top header style */
+    .topheader-section {
+        display: none;
+    }
+
+    .headerMain-section::before {
+        width: 100%;
+        background: #67686A;
+        clip-path: none;
+    }
+
+    .col-xl-3.col-lg-3.col-md-3.text-center {
+        text-align: left !important;
+    }
+
+    /* header nav style */
+    .headerMain-section {
+        padding-bottom: 12px;
+    }
+
+    /* header meen menu style */
+    .headerMain-section a.headerlogo {
+        font-size: 35px;
+        line-height: 45px;
+        color: #fff;
+        padding-left: 15px;
+    }
+
+    .mean-container a.meanmenu-reveal {
+        border: 1px solid #fff;
+        color: #fff;
+        margin-top: -46px;
+        right: 35px !important;
+    }
+
+    .mean-container a.meanmenu-reveal span::before {
+        content: "";
+        position: absolute;
+        width: 55%;
+        height: calc(10% - 1px);
+        left: 0;
+        top: 18px;
+        background: #fff;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .mean-container a.meanmenu-reveal span::after {
+        content: "";
+        position: absolute;
+        width: 55%;
+        height: calc(10% - 1px);
+        left: 0;
+        top: 24px;
+        background: #fff;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .mean-container a.meanmenu-reveal span {
+        background: #fff none repeat scroll 0 0;
+        margin-top: 5px;
+    }
+
+    /* hero slide style */
+    .hero-content h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    /* service content style */
+    .service-box {
+        text-align: center;
+        padding-bottom: 30px;
+        padding-right: 30px;
+    }
+
+    .service-box p {
+        text-align: center;
+    }
+
+    /* about sec style */
+    .about-contentDec {
+        padding: 0px 35px;
+        text-align: center;
+    }
+
+    /* about title */
+    h2.title {
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+    }
+
+    h2.title::before {
+        bottom: -10px;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .about-contentDec p {
+        font-size: 12px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    /* project sec style */
+    .project-menu button {
+        font-size: 21px;
+        line-height: 31px;
+        margin: 0 15px 0 0;
+    }
+
+    .project-conttext h4 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .project-menuitem {
+        padding: 0 10px;
+    }
+
+    /* faq sec style */
+    .faq-section {
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+    }
+
+    .our-faq-sec .btn-link {
+        font-size: 18px;
+    }
+
+    .our-faq-sec .btn-link span svg {
+        width: 28px;
+        height: 28px;
+        display: inline-block;
+    }
+
+    .faq-leftimg {
+        left: 0;
+    }
+
+    /* faq card */
+    .accordion>.card>.card-header {
+        padding: 0 15px;
+    }
+
+    .card-body p {
+        font-size: 11px;
+        line-height: 21px;
+    }
+
+    /* contat sec style */
+    .contact-infobox {
+        padding: 120px 30px 110px 30px;
+        left: 0;
+        text-align: center;
+    }
+
+    .contact-infobox h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .contact-infobox p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .contact-infobox a {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .contact-align-righttbox {
+        background-image: none !important;
+        background: #67686A;
+        clip-path: none;
+    }
+
+    .contact-align-righttbox::after {
+        left: -171px;
+    }
+
+    .contact-align-righttbox::before {
+        left: -171px;
+    }
+
+    .contact-rightbox {
+        padding: 94px 35px 96px 40px;
+    }
+
+    .col-xl-6.col-lg-6.col-md-12.pl-25 {
+        padding-left: 15px;
+    }
+
+    .btn-center {
+        text-align: center;
+    }
+
+    /* footer sec style */
+    .footer-widgetbox h3 {
+        text-align: center;
+    }
+
+    .footer-widgetbox h3::before {
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .footer-widgetbox ul {
+        text-align: center;
+    }
+
+    ul.contact-infowidgets li a span {
+        padding-right: 10px;
+    }
+
+    ul.contact-infowidgets li a span svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .footer-widgetbox ul li a {
+        font-size: 15px;
+        line-height: 25px;
+
+    }
+
+    .career-widgets {
+        text-align: center;
+    }
+
+    .career-widgets p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    /* footer copyright */
+    .footer-copyrightleft {
+        font-size: 9px;
+        line-height: 19px;
+    }
+
+    .footer-copyrightlink li a svg {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+/* SM Small Device :550px. */
+/* @media only screen and (min-width: 576px) and (max-width: 767px) { } */
